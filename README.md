@@ -38,11 +38,11 @@ Structuring backend project
 
     create relationships(API<-depend on Infra <- depent on <-Core
     cd API
-    dotnet add reference .//Infrastructure
+    dotnet add reference ..//Infrastructure
     (check in API.csproj for details)
     cd ..
     cd Infrastructure
-    dotnet add reference .//Core
+    dotnet add reference ..//Core
 
         				dotnet restore
 
